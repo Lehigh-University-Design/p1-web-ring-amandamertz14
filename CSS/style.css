@@ -1,20 +1,14 @@
 :root{
     --background-color: rgb(255, 242, 235);
-    --light-color: white;
-    --dark-color: black;
+    --light-color: rgb(255, 244, 217);
+    --dark-color: rgb(40, 0, 0);
 }
 
-main{
-    
-    background-color: rgb(250, 230, 207);
-    position: relative;
-    max-width:1080px;
-    margin:0 auto;
-    padding: 20px;
-}
+
 
 body{
 
+    font-optical-sizing: auto;
     background-color: white;
     background-color: var(--background-color);
     
@@ -30,11 +24,18 @@ body{
     font-size: 40px;
       
 }
+main{
+    
+    background-color: rgb(250, 230, 207);
+    position: relative;
+    max-width:1080px;
+    margin:0 auto;
+    padding: 20px;
+}
 
 .top
 {
-    
-    
+
     margin-right: center;
     font-size: 30px;
     font-size: 20px;
@@ -51,13 +52,59 @@ body{
     }
 }
 
-.noteL{
-    width: 50%;
+.flex-container{
+    background-color: rgb(210, 168, 168);
+    display: block;
+    justify-content: space-between; 
+    flex-flow: wrap;
+    align-items: baseline;
+
+    
+
+    padding-left: 200px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    font-size: 15px;
+
+    border: 1px solid var(--dark-color);
+    width: 40%;
+    margin-bottom: 2em;
+    padding: .5em 1em;
+
+    img{
+        height: 200px;
+    }
+
 }
+
+
 
 .noteR
 {
-    width: 150%;
+    background-color: rgb(210, 168, 168);
+    display: block;
+    justify-content: space-between;
+
+    
+
+    padding-left: 200px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+    font-size: 15px;
+
+    border: 1px solid var(--dark-color);
+    width: 40%;
+    margin-bottom: 2em;
+    padding: .5em 1em;
+
+    img{
+        height: 200px;
+    }
+
 }
 
 .post{
