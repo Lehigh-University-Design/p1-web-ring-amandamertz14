@@ -8,15 +8,15 @@
 
 body{
 
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    margin-bottom: auto;
+
     font-optical-sizing: auto;
     background-color: white;
-    background-color: var(--background-color);
-    
-    
-    margin: 0;
-    padding: 0;
-   
-    
+    background-color: var(--background-color);   
     text-align: center;        
     font-family: "Carrois Gothic SC", sans-serif;
     font-weight: 600;
@@ -24,27 +24,19 @@ body{
     font-size: 40px;
       
 }
-main{
-    
-    background-color: rgb(250, 230, 207);
-    position: relative;
-    max-width:1080px;
-    margin:0 auto;
-    padding: 20px;
-}
+
+
+
 
 .top
 {
 
     margin-right: center;
-    font-size: 30px;
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 5px;
     font-style: normal;
-
-    padding: 30px;
 
     img{
         height: 500px;
@@ -52,83 +44,52 @@ main{
     }
 }
 
-.flex-container{
-    background-color: rgb(210, 168, 168);
-    display: block;
-    justify-content: space-between; 
-    flex-flow: wrap;
-    align-items: baseline;
-
-    
-
-    padding-left: 200px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 10px;
-    font-style: normal;
-    font-size: 15px;
-
-    border: 1px solid var(--dark-color);
-    width: 40%;
-    margin-bottom: 2em;
-    padding: .5em 1em;
-
-    img{
-        height: 200px;
-    }
-
-}
-
-
-
-.noteR
-{
-    background-color: rgb(210, 168, 168);
-    display: block;
-    justify-content: space-between;
-
-    
-
-    padding-left: 200px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 10px;
-    font-style: normal;
-    font-size: 15px;
-
-    border: 1px solid var(--dark-color);
-    width: 40%;
-    margin-bottom: 2em;
-    padding: .5em 1em;
-
-    img{
-        height: 200px;
-    }
-
-}
-
-.post{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    margin: 50px;
-
-    font-size: 15px;
+.OuterDivBothPics{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding: 50px;
+    font-size: 20px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 5px;
     font-style: normal;
-    justify-content: space-around;
 
-    img{
-        padding: 30px;
-        height: 250px;
-        width: auto;
+    .innerPicDiv{
+        padding: 5px;
+        text-align:center;
+        
+
+
+
+
     }
+ }
+
+ a:link{
+    color: black;
+    
+
+ }
+
+ a:visited{
+    color: black;
+
+ }
+
+ a:hover{
+    color:brown;
+ }
+
+
+
+
+
     
     
 
-}
+
 
 
 
